@@ -12,57 +12,58 @@ a{
     margin: 0 auto;
     padding-top: 100px;
 }
-.hero-image img{
-    width: 100%;
-}
-.hero-parent{
-    display: flex;
-}
-/* .hero{
-    background-image: url(images/asset\ 5.png);
-    background-size: 700px;
-    background-repeat: no-repeat;
-    background-position: right;
-    margin-right: -110px;
-} */
-.hero-text h3{
-    font-size: 40px;
-}
-.hero-text hr{
-    width: 500px;
-    height: 2px;
-    background-color: black;
-    margin-left: 140px;
-    margin-top: -25px;
-}
-.hero-text h1{
-    margin-top: 30px;
-    font-size: 60px;
-    font-weight: 700px;
-}
-.hero-text p{
-    font-size: 30px;
-    font-weight: 700px;
-}
-.btn-main{
-    display: flex;
-    margin-top: 5%;
-}
 
-.btn-hire{
-   background-image: linear-gradient(to right, #D626A6, #1944E3);
-   padding: 15px 40px; 
-   cursor: pointer;
-   transition: 0.5s;
+h1{
+    font-size: 50px;
 }
-.btn-hire:hover{
-    background-image: linear-gradient(to left, #D626A6, #1944E3);
+p{
+    font-size: 18px;
+    margin-top: 26px;
+}
+.green{
+    color: #07A0B5;
+}
+.hero-text{
+    border-left: 4px solid #900C3F;
+    padding-left: 15px;
+
+}
+.mission-main{
+    display: flex;
     
 }
-.btn-hire a{
-    color: #fff;
+.mission-text{
+    width: 40%;
 }
-.btn-cv{
+.mission-text h4{
+    margin-top: 30px;
+}
+.btn-explore{
+    margin-top: 20px;
+    padding: 15px 40px;
+    background-image: linear-gradient(to right, #4A57DD, #6e608d); 
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.btn-explore:hover{
+    background-image: linear-gradient(to left, #4A57DD, #6e608d); 
+}
+
+.mission-img{
+    width: 60%; 
+}
+.mission-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+/* .btn-cv{
     padding: 15px 40px;
     border: 2px solid #2C41DD ; 
     margin-left: 15px;
@@ -72,8 +73,5 @@ a{
 }
 .btn-cv:hover{ 
     box-shadow: inset 140px 0 0 0 #2C41DD;
-} 
+}  */
 
-.btn-cv:hover a{
-    color: #fff;
-}
