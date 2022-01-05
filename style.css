@@ -13,13 +13,18 @@ a{
     padding-top: 100px;
 }
 
-h1{
-    font-size: 50px;
-}
+h1{font-size: 50px;}
+h2{font-size: 40px;}
+h3{font-size: 30px;}
 p{
     font-size: 18px;
     margin-top: 26px;
 }
+.margin-bottom-60{
+    margin-bottom: 60px;
+}
+/* common-css-end */
+
 .green{
     color: #07A0B5;
 }
@@ -66,13 +71,13 @@ p{
 /*=-=-=-=-=-=-=-=-=-=-= 
  top-section-css end 
 =-=-=-=-=-=-=-=-=-=-=*/
-.mission-22{
-    margin-top: 40px;
+.sec-top-margin{
+    margin-top: 80px;
 }
 .section-title h1{
     font-size: 45px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 .year-color{
     color:#07A0B5 ;
@@ -121,9 +126,66 @@ p{
 /*=-=-=-=-=-=-=-=-=-=-= 
  box-section-css end 
 =-=-=-=-=-=-=-=-=-=-=*/
+.develop-main{
+    display: flex;
+    justify-content: space-between;
+    
+  
+}
+.shape-background{
+    background-image: url(./images/shape-1.png);
+    background-position: 18px 165px;
+    background-repeat: no-repeat;
+    background-size: 200px;
+      
+}
+.develop-img{
+    width: 40%;
+    
+}
+.develop-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+.develop-text{
+    width: 50%;
+}
+.develop-text h2{
+    font-weight: 800px;
+}
 
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+ development-section-css end 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+.global-img{
+    width: 40%;
+    margin-bottom: 80px;
+}
+.global-img img{
+    width: 90%;
+    border-radius: 20px;
+}
 
+.shape-btm{
+    background-image: url(./images/shape-1.png);
+    background-position: 1089px 380px;
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
 
+footer{
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer span{
+    color: #07A0B5;
+}
+footer h3{
+    font-family: 'Righteous', cursive;
+}
 
 /* .btn-cv{
     padding: 15px 40px;
