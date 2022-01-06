@@ -29,7 +29,9 @@ p{
     color: #07A0B5;
 }
 .hero-text{
-    border-left: 4px solid #900C3F;
+    border-left: 6px solid;
+    border-image: linear-gradient(#07A0B5, #050a3f) ;
+    border-image-slice: 4;
     padding-left: 15px;
 
 }
