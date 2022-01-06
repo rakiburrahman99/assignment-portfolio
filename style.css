@@ -173,6 +173,85 @@ p{
     background-size: 200px;
 }
 
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+ Global-section-css end 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+.my-special-feature{
+    background-color: #7510F7;
+    height: 400px;
+    margin-top: 110px;
+}
+.lets-do-main{
+    background-color: #141C3A;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    margin-top: -167px;
+}
+.lets-do-title{
+    width: 30%;
+    padding-top: 27px;
+}
+.lets-do-text{
+    width: 40%;
+}
+
+.lets-do-btn{
+    width: 20%;
+}
+.lets-btn{
+   font-size: 18px;
+   font-weight: bold;
+    padding: 15px 35px;
+    border: 2px solid #7510F7; 
+    background: transparent;
+    color: #fff;
+    border-radius: 25px;
+    margin-top: 18px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #2C41DD;
+    transition:  0.5s;
+    
+}
+
+.lets-btn:hover{
+    box-shadow: inset 175px 0 0 0 #2C41DD;
+}
+
+.social{
+    text-align: center;
+    margin-top: 10%;
+   
+}
+.social i{
+    color: #fff;
+}
+.social h4{
+    color: #fff;
+}
+.social-icon{
+  margin-top: 20px;
+    
+}
+.social-icon i{
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.social-icon i:hover{
+    background-color: #fff;
+    color: #2C41DD;
+}
+
+
 footer{
     background: black;
     color: #fff;
@@ -186,16 +265,3 @@ footer span{
 footer h3{
     font-family: 'Righteous', cursive;
 }
-
-/* .btn-cv{
-    padding: 15px 40px;
-    border: 2px solid #2C41DD ; 
-    margin-left: 15px;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 0 #2C41DD;
-    transition:  0.5s;
-}
-.btn-cv:hover{ 
-    box-shadow: inset 140px 0 0 0 #2C41DD;
-}  */
-
