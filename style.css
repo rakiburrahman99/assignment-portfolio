@@ -95,8 +95,12 @@ p{
     border-radius: 20px;
     padding-bottom: 20px;
     text-align: center;
-    box-shadow: 5px 10px 30px #7c6a6afa;
+    box-shadow: 2px 2px 2px 1px rgba(80, 54, 54, 0.98);
+    cursor: pointer;
        
+}
+.mission-box:hover{
+    box-shadow: 5px 10px 30px #7c6a6afa;
 }
 .vission-box{
     width: 25%;
@@ -105,6 +109,10 @@ p{
     border-radius: 20px;
     padding-bottom: 20px;
     text-align: center;
+    box-shadow: 2px 2px 2px 1px rgba(80, 54, 54, 0.98);
+    cursor: pointer;
+}
+.vission-box:hover{
     box-shadow: 5px 10px 30px #7c6a6afa;
 }
 .goal-box{
@@ -114,6 +122,10 @@ p{
     border-radius: 20px;
     padding-bottom: 20px;
     text-align: center;
+    box-shadow: 2px 2px 2px 1px rgba(80, 54, 54, 0.98);
+    cursor: pointer;
+}
+.goal-box:hover{
     box-shadow: 5px 10px 30px #7c6a6afa;
 }
 .box-title {
